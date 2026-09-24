@@ -16,7 +16,9 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: yuanyang-yyang
           template: classic
-          base: header, repositories
+          base: header
           plugin_languages: yes
+          plugin_languages_details: percentage
+          plugin_languages_limit: 8
           filename: images/metrics.svg
           output_action: commit
