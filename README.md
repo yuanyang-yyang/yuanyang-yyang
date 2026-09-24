@@ -26,6 +26,6 @@ science (systems & ML).
 ## What I'm Building
 
 - **Work** — AI agents for engineering workflows
-- Multi-phase pipeline generating human-like episodic memories for fictional agents
-- Asphaltene structural characterization via SAXS + ML
+- Multi-agent LLM pipeline (LangGraph + Gemini) giving agents persona-conditioned episodic memory
+- CNN ensemble with calibrated uncertainty for asphaltene X-ray scattering analysis, trained on synthetic data and adapted to real data via physics-based self-supervision
 - Multi-agent system exploring Bazi-based reasoning and planning
