@@ -19,7 +19,7 @@ chemical/structural chemistry.
 ![MCP](https://img.shields.io/badge/-MCP-000000?style=flat&logo=modelcontextprotocol&logoColor=white)
 ![Pydantic AI](https://img.shields.io/badge/-Pydantic%20AI-E92063?style=flat&logo=pydantic&logoColor=white)
 ![OpenAI Agents SDK](https://img.shields.io/badge/-OpenAI%20Agents%20SDK-412991?style=flat)
-![ADK](https://img.shields.io/badge/-ADK-4285F4?style=flat)
+![Google ADK](https://img.shields.io/badge/-Google%20ADK-4285F4?style=flat)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![Bun](https://img.shields.io/badge/-Bun-000000?style=flat&logo=bun&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
