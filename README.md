@@ -17,6 +17,9 @@ chemical/structural chemistry.
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Computer Vision](https://img.shields.io/badge/-Computer%20Vision-6E44FF?style=flat)
+![NLP](https://img.shields.io/badge/-NLP-2E8B57?style=flat)
+![Reinforcement Learning](https://img.shields.io/badge/-Reinforcement%20Learning-CC6600?style=flat)
 
 ## GitHub Stats
 
@@ -37,7 +40,3 @@ chemical/structural chemistry.
 - Multimodal framework extending VLMs to detect hateful memes, reaching human-level performance via synthetic and feature augmentation
 - Cooperative multi-agent deep RL (DQN vs. Double DQN) for joint task completion across multiple environment layouts
 - Fault-tolerant, scalable MapReduce library with straggler mitigation
-
-## Certificates & Coursework
-
-IBM RAG and Agentic AI Professional Certificate · Google Generative AI Intensive & AI Agents Intensive (Kaggle) · Computer Vision · Deep Learning · Reinforcement Learning · NLP · Advanced Operating Systems · Database · Software Development · High Performance Computer Architecture
