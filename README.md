@@ -29,3 +29,9 @@ science (systems & ML).
 - Multi-agent LLM pipeline (LangGraph + Gemini) giving agents persona-conditioned episodic memory
 - CNN ensemble with calibrated uncertainty for asphaltene X-ray scattering analysis, trained on synthetic data and adapted to real data via physics-based self-supervision
 - Multi-agent system exploring Bazi-based reasoning and planning
+
+## Past Projects
+
+- Multimodal framework extending VLMs to detect hateful memes, reaching human-level performance via synthetic and feature augmentation
+- Cooperative multi-agent deep RL (DQN vs. Double DQN) for joint task completion across multiple environment layouts
+- Fault-tolerant, scalable MapReduce library with straggler mitigation
