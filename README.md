@@ -1,11 +1,11 @@
 # Hi, I'm Yuan 👋
 
 AI Agent Engineer building agentic systems for engineering workflows —
-grounded in a background spanning chemical/structural chemistry and computer
-science (systems & ML).
+grounded in a background spanning computer science (systems & ML) and
+chemical/structural chemistry.
 
 - 🔭 Currently building physical AI — AI agents for real-world engineering systems
-- 🧪 Background in chemical/structural chemistry and CS (computing systems & ML)
+- 🧪 Background in CS (computing systems & ML) and chemical/structural chemistry
 - 📫 yuanyang.yyang@gmail.com
 
 ## Tech Stack
