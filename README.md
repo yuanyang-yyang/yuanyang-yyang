@@ -1,6 +1,4 @@
-# Hi, I'm Yuan 👋
-
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=1C5CAB&center=true&width=480&lines=AI+Agent+Engineer;Building+physical+AI;CS+%2B+structural+chemistry+background)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=1C5CAB&center=true&multiline=true&repeat=false&width=480&height=80&lines=Hi%2C+I%27m+Yuan.;AI+Agent+Engineer)](https://git.io/typing-svg)
 
 AI Agent Engineer building agentic systems for engineering workflows —
 grounded in a background spanning computer science (systems & ML) and
