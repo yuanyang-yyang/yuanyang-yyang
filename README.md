@@ -25,7 +25,7 @@ science (systems & ML).
 
 ## What I'm Building
 
-- **Work** — AI4S (AI for Science)
+- **Work** — AI agents for engineering workflows
 - **Mneme** — agent memory
 - **AsphaltNet** — materials science + ML
 - **MetaphysicsAI** — multi-agent reasoning
