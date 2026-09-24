@@ -26,6 +26,8 @@ chemical/structural chemistry.
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
+![GCP](https://img.shields.io/badge/-GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)
 
 ## GitHub Stats
 
@@ -45,4 +47,4 @@ chemical/structural chemistry.
 
 - Multimodal framework extending VLMs to detect hateful memes, reaching human-level performance via synthetic and feature augmentation
 - Cooperative multi-agent deep RL (DQN vs. Double DQN) for joint task completion across multiple environment layouts
-- Fault-tolerant, scalable MapReduce library with straggler mitigation
+- Fault-tolerant, scalable MapReduce library in C++ with straggler mitigation, deployed on GCP
