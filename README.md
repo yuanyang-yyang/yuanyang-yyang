@@ -21,9 +21,6 @@ chemical/structural chemistry.
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Computer Vision](https://img.shields.io/badge/-Computer%20Vision-6E44FF?style=flat)
-![NLP](https://img.shields.io/badge/-NLP-2E8B57?style=flat)
-![Reinforcement Learning](https://img.shields.io/badge/-Reinforcement%20Learning-CC6600?style=flat)
 
 ## GitHub Stats
 
