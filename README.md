@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=36&color=1C5CAB&center=true&repeat=false&width=480&height=70&duration=2000&lines=Hi%2C+I%27m+Yuan.)](https://git.io/typing-svg)
+![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=36&color=1C5CAB&center=true&repeat=false&width=480&height=70&duration=2000&lines=Hi%2C+I%27m+Yuan.)
 
 AI Agent Engineer building agentic systems for engineering workflows —
 grounded in a background spanning computer science (systems & ML) and
