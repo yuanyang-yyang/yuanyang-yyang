@@ -39,7 +39,7 @@ chemical/structural chemistry.
 
 ## GitHub Stats
 
-![My GitHub Stats](images/userstats.svg)
+![My GitHub Stats](images/metrics.svg)
 
 ## What I'm Building
 
