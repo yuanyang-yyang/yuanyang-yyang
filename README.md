@@ -25,13 +25,6 @@ science (systems & ML).
 
 ## What I'm Building
 
-**At LongRangeOrder**
-- AI-native battery cell engineering agent — React + FastAPI + Postgres workspace for model-run workflows
-- Engineering agent control plane — orchestrates engineering agents over Slurm execution
-- CAD/COMSOL workflow automation — topology mapping, geometry checks, batch delivery, visual audits
-- Battery model inference service
-
-**Personal / R&D**
 - **Mneme** — multi-phase pipeline generating human-like episodic memories for fictional agents
 - **AsphaltNet** — asphaltene structural characterization via SAXS + ML
 - **MetaphysicsAI** — multi-agent system exploring Bazi-based reasoning/planning
