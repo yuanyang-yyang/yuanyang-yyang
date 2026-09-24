@@ -37,3 +37,7 @@ chemical/structural chemistry.
 - Multimodal framework extending VLMs to detect hateful memes, reaching human-level performance via synthetic and feature augmentation
 - Cooperative multi-agent deep RL (DQN vs. Double DQN) for joint task completion across multiple environment layouts
 - Fault-tolerant, scalable MapReduce library with straggler mitigation
+
+## Certificates & Coursework
+
+IBM RAG and Agentic AI Professional Certificate · Google Generative AI Intensive & AI Agents Intensive (Kaggle) · Computer Vision · Deep Learning · Reinforcement Learning · NLP · Advanced Operating Systems · Database · Software Development · High Performance Computer Architecture
