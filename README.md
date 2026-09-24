@@ -4,8 +4,7 @@ AI Agent Engineer building agentic systems for engineering workflows —
 grounded in a background spanning chemical/structural chemistry and computer
 science (systems & ML).
 
-- 🔭 Currently building AI-native engineering agents (battery modeling,
-  CAD/COMSOL automation, control-plane orchestration)
+- 🔭 Currently building physical AI — AI agents for real-world engineering systems
 - 🧪 Background in chemical/structural chemistry and CS (computing systems & ML)
 - 📫 yuanyang.yyang@gmail.com
 
