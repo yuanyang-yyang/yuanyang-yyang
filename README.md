@@ -18,7 +18,7 @@ chemical/structural chemistry.
 ![Gemini](https://img.shields.io/badge/-Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
 ![MCP](https://img.shields.io/badge/-MCP-000000?style=flat&logo=modelcontextprotocol&logoColor=white)
 ![Pydantic AI](https://img.shields.io/badge/-Pydantic%20AI-E92063?style=flat&logo=pydantic&logoColor=white)
-![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat)
+![OpenAI Agents SDK](https://img.shields.io/badge/-OpenAI%20Agents%20SDK-412991?style=flat)
 ![ADK](https://img.shields.io/badge/-ADK-4285F4?style=flat)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![Bun](https://img.shields.io/badge/-Bun-000000?style=flat&logo=bun&logoColor=white)
