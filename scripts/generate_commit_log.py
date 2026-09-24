@@ -33,6 +33,16 @@ query {
       }
     }
   }
+  org1: repository(owner: "longrangeorder", name: "lro-agent-app") { ...langs }
+  org2: repository(owner: "longrangeorder", name: "lro-phoenix-agent") { ...langs }
+  org3: repository(owner: "longrangeorder", name: "comsol-workflow") { ...langs }
+  org4: repository(owner: "longrangeorder", name: "battery-inference-service") { ...langs }
+}
+
+fragment langs on Repository {
+  languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
+    edges { size node { name } }
+  }
 }
 """
 
@@ -77,7 +87,9 @@ def fetch_calendar():
 
 
 def fetch_languages(limit=6):
-    repos = graphql(LANGUAGES_QUERY)["viewer"]["repositories"]["nodes"]
+    data = graphql(LANGUAGES_QUERY)
+    repos = data["viewer"]["repositories"]["nodes"]
+    repos += [data["org1"], data["org2"], data["org3"], data["org4"]]
     totals = {}
     for repo in repos:
         for edge in repo["languages"]["edges"]:
