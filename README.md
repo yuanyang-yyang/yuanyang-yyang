@@ -39,10 +39,7 @@ chemical/structural chemistry.
 
 ## GitHub Stats
 
-<p>
-  <img height="165" src="https://github-readme-stats.nixrajput.com/api?username=yuanyang-yyang&show_icons=true&theme=default&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.nixrajput.com/api/top-langs/?username=yuanyang-yyang&layout=compact&hide_border=true" />
-</p>
+![My GitHub Stats](images/userstats.svg)
 
 ## What I'm Building
 
