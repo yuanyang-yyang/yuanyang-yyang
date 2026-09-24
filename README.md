@@ -47,4 +47,4 @@ chemical/structural chemistry.
 
 - Multimodal framework extending VLMs to detect hateful memes, reaching human-level performance via synthetic and feature augmentation
 - Cooperative multi-agent deep RL (DQN vs. Double DQN) for joint task completion across multiple environment layouts
-- Fault-tolerant, scalable MapReduce library in C++ with straggler mitigation, deployed on GCP
+- Fault-tolerant, scalable MapReduce library with straggler mitigation
