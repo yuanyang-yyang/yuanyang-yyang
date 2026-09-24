@@ -1,4 +1,4 @@
-name: Commit Log
+name: GitHub Stats
 
 on:
   schedule:
@@ -13,13 +13,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate contribution calendar SVG
-        run: python3 scripts/generate_commit_log.py images/commit-log.svg
+      - name: Generate stats SVGs
+        run: python3 scripts/generate_commit_log.py
         env:
           METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
           GH_LOGIN: yuanyang-yyang
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'chore: update contribution calendar'
-          file_pattern: images/commit-log.svg
+          commit_message: 'chore: update GitHub stats'
+          file_pattern: images/commit-log.svg images/languages.svg

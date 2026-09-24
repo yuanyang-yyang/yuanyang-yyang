@@ -41,7 +41,7 @@ chemical/structural chemistry.
 
 ![Contribution calendar](images/commit-log.svg)
 
-![My GitHub Stats](images/metrics.svg)
+![Top languages](images/languages.svg)
 
 ## What I'm Building
 
