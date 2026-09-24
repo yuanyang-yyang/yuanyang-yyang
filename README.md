@@ -40,8 +40,8 @@ chemical/structural chemistry.
 ## GitHub Stats
 
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=yuanyang-yyang&show_icons=true&theme=default&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yuanyang-yyang&layout=compact&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.nixrajput.com/api?username=yuanyang-yyang&show_icons=true&theme=default&hide_border=true&count_private=true" />
+  <img height="165" src="https://github-readme-stats.nixrajput.com/api/top-langs/?username=yuanyang-yyang&layout=compact&hide_border=true" />
 </p>
 
 ## What I'm Building
