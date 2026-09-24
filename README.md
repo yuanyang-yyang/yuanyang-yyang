@@ -25,6 +25,6 @@ science (systems & ML).
 
 ## What I'm Building
 
-- **Mneme** — multi-phase pipeline generating human-like episodic memories for fictional agents
-- **AsphaltNet** — asphaltene structural characterization via SAXS + ML
-- **MetaphysicsAI** — multi-agent system exploring Bazi-based reasoning/planning
+- **Mneme** — agent memory
+- **AsphaltNet** — materials science + ML
+- **MetaphysicsAI** — multi-agent reasoning
