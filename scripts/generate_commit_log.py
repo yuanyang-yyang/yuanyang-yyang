@@ -25,11 +25,8 @@ query {
 
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 COLORS = ["#ebedf0", "#86b6ef", "#3987e5", "#1c5cab", "#0d366b"]  # validated ordinal ramp (0, 1-3, 4-9, 10-18, 19+)
-INK = "#0b0b0b"
 MUTED = "#6b6b66"
-ACCENT = "#1c5cab"
 SURFACE = "#ffffff"
-BORDER = "#e5e3df"
 SANS = "-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif"
 
 
@@ -60,36 +57,21 @@ def fetch_calendar():
     return payload["data"]["viewer"]["contributionsCollection"]["contributionCalendar"]
 
 
-def current_streak(days):
-    streak = 0
-    for d in reversed(days):
-        if d["contributionCount"] > 0:
-            streak += 1
-        else:
-            break
-    return streak
-
-
-def render(weeks, total, streak, start_date, end_date):
+def render(weeks):
     cell, gap = 10, 2
     step = cell + gap
     grid_w = len(weeks) * step - gap
-    pad = 20
+    pad = 12
     left_pad = 30
     width = pad * 2 + left_pad + grid_w
-    grid_top = pad + 48
+    grid_top = pad + 14
     grid_h = 7 * step
-    stats_h = 56
-    height = grid_top + grid_h + 20 + stats_h + pad
+    height = grid_top + grid_h + 26
 
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
         f'viewBox="0 0 {width} {height}" font-family="{SANS}">',
         f'<rect width="{width}" height="{height}" fill="{SURFACE}"/>',
-        f'<rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="10" '
-        f'fill="none" stroke="{BORDER}"/>',
-        f'<text x="{pad}" y="{pad + 14}" font-size="15" font-weight="600" fill="{INK}">Activity</text>',
-        f'<text x="{pad}" y="{pad + 32}" font-size="11" fill="{MUTED}">{start_date} → {end_date}</text>',
     ]
 
     grid_left = pad + left_pad
@@ -121,23 +103,13 @@ def render(weeks, total, streak, start_date, end_date):
         lx += 14
     parts.append(f'<text x="{lx + 4}" y="{legend_y + 8}" font-size="9" fill="{MUTED}">More</text>')
 
-    stats_y = legend_y + 34
-    parts.append(f'<line x1="{pad}" y1="{stats_y - 12}" x2="{width - pad}" y2="{stats_y - 12}" stroke="{BORDER}"/>')
-    for i, (val, label) in enumerate([(str(total), "TOTAL CONTRIBUTIONS"), (f"{streak}d", "CURRENT STREAK")]):
-        cx = pad + i * (width - 2 * pad) / 2
-        parts.append(f'<text x="{cx}" y="{stats_y + 18}" font-size="20" font-weight="700" fill="{ACCENT}">{val}</text>')
-        parts.append(f'<text x="{cx}" y="{stats_y + 32}" font-size="8" letter-spacing="0.5" fill="{MUTED}">{label}</text>')
-
     parts.append("</svg>")
     return "".join(parts)
 
 
 def main():
     cal = fetch_calendar()
-    weeks = cal["weeks"]
-    days = [d for w in weeks for d in w["contributionDays"]]
-
-    svg = render(weeks, cal["totalContributions"], current_streak(days), days[0]["date"], days[-1]["date"])
+    svg = render(cal["weeks"])
 
     out = sys.argv[1] if len(sys.argv) > 1 else "images/commit-log.svg"
     os.makedirs(os.path.dirname(out), exist_ok=True)
